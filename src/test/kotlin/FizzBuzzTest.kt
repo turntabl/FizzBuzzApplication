@@ -22,4 +22,10 @@ internal class FizzBuzzTest{
         val expected = "buzz"
         assertEquals(expected, results)
     }
+    @Test
+    fun testNegativeIntegerReturnBuzz() {
+        val results = testFizzBuzz.getFizzBuzz(-10)
+        val expected = "buzz"
+        assertEquals(expected, results)
+    }
 }
