@@ -28,4 +28,11 @@ internal class FizzBuzzTest{
         val expected = "buzz"
         assertEquals(expected, results)
     }
+
+    @Test
+    fun testPostiveIntegerReturnFizzBuzz() {
+        val results = testFizzBuzz.getFizzBuzz(15)
+        val expected = "fizzbuzz"
+        assertEquals(expected, results)
+    }
 }

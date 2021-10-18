@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-18T16:11:11" hostname="DESKTOP-644R1VB" time="0.021">
+<testsuite name="FizzBuzzTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-10-18T16:18:15" hostname="DESKTOP-644R1VB" time="0.023">
   <properties/>
-  <testcase name="testPostiveIntegerReturnBuzz()" classname="FizzBuzzTest" time="0.017"/>
-  <testcase name="testNegativeIntegerReturnBuzz()" classname="FizzBuzzTest" time="0.0"/>
-  <testcase name="testNegativeIntegerReturnFizz()" classname="FizzBuzzTest" time="0.0"/>
-  <testcase name="testPositiveIntegerReturnFizz()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="testPostiveIntegerReturnBuzz()" classname="FizzBuzzTest" time="0.018"/>
+  <testcase name="testNegativeIntegerReturnBuzz()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="testNegativeIntegerReturnFizz()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="testPostiveIntegerReturnFizzBuzz()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="testPositiveIntegerReturnFizz()" classname="FizzBuzzTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
