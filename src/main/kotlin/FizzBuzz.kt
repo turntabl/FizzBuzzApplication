@@ -8,6 +8,8 @@ class FizzBuzz {
             result = "fizz"
         }else if(n % 5 == 0){
             result = "buzz"
+        }else{
+            result = n.toString()
         }
         return result
     }
