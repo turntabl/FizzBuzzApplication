@@ -44,7 +44,7 @@ internal class FizzBuzzTest{
     }
 
     @Test
-    fun testIntegerNotDivisibleBy3AND5() {
+    fun testIntegerNotDivisibleBy3OR5() {
         val results = testFizzBuzz.getFizzBuzz(4)
         val expected = "4"
         assertEquals(expected, results)
